@@ -1,0 +1,96 @@
+body {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(13, 1fr);
+	grid-template-areas: "n n n n n n n n n n n n"	
+						 "i i i i i i i i i i i i"
+						 "i i i i i i i i i i i i"
+						 "i i i i i i i i i i i i"
+						 "i i i i i i i i i i i i"
+						 "i i i i i i i i i i i i"
+						 "c c c c c c c c c c c c"
+						 "c c c c c c c c c c c c"
+						 "c c c c c c c c c c c c"
+						 "c c c c c c c c c c c c"
+						 "c c c c c c c c c c c c"
+						 "f f f f f f f f f f f f"
+						 "f f f f f f f f f f f f";
+}
+
+nav {
+	grid-area: n;
+}
+
+#intro {
+	grid-area: i;
+}
+
+#content {
+	grid-area: c;
+}
+
+footer {
+	grid-area: f;
+}
+
+/* Nav */
+
+nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}  
+
+#nav-logo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#nav-links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* Intro */
+
+#intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Content */
+
+#content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Footer */
+
+footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#copyright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

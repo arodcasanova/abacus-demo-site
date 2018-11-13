@@ -1,0 +1,28 @@
+nav {
+	background-color: rgba(126, 176, 246, 1);
+}
+
+#intro {
+	background-color: rgba(126, 176, 246, 0.66);
+}
+
+#content {
+	background-color: rgba(126, 176, 246, .33);
+}
+
+footer {
+	background-color: rgba(126, 176, 246, .1);
+}
+
+/* Individual Spacing */
+
+h1 {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
