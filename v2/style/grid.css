@@ -1,0 +1,44 @@
+body {
+	display: grid;
+	grid-row-gap: 1em;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-areas: "ni ni ni ni ni ni ni ni nl nl nl nl"
+						 "hc hc hc hc hc hc hc hc hc hc hc hc"
+						 "hc hc hc hc hc hc hc hc hc hc hc hc"
+						 "cx cx cx cx cy cy cy cy cz cz cz cz"
+						 "cx cx cx cx cy cy cy cy cz cz cz cz"
+						 "cu cu cu cu cu cu cr cr cr cr cr cr";		 
+}
+
+#ni {
+	grid-area: ni;
+}
+
+#nl {
+	grid-area: nl;
+}
+
+#hc {
+	grid-area: hc;
+}
+
+#cx {
+	grid-area: cx;
+}
+
+#cy {
+	grid-area: cy;
+}
+
+#cz {
+	grid-area: cz;
+}
+
+#cu {
+	grid-area: cu;
+}
+
+#cr {
+	grid-area: cr;
+}

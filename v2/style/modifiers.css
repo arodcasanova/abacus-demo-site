@@ -1,0 +1,12 @@
+.right {
+	justify-content: flex-end;
+}
+
+.left {
+	justify-content: flex-start;
+}
+
+.spaced {
+	padding-right: 0.25em;
+	padding-left: 0.25em;
+}

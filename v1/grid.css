@@ -52,14 +52,14 @@ nav {
 	align-items: center;
 }
 
-/* Intro */
+/* Pieces */
 
-#intro {
+.section {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+
 
 /* Content */
 
@@ -76,21 +76,7 @@ nav {
 	align-items: center;
 }
 
-/* Footer */
-
 footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-}
-
-#contact {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#copyright {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
