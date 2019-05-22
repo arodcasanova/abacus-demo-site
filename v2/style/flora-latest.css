@@ -1,0 +1,22 @@
+#flora {
+	display: none;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	height: 55px;
+	width: 55px;
+	margin: 15px;
+	padding: 6px;
+	border-radius: 50%;
+	background-image: url("https://1317375494.rsc.cdn77.org/img/gt-logo.svg");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	background-color: white;
+}
+
+#flora:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

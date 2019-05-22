@@ -1,12 +1,71 @@
-.right {
-	justify-content: flex-end;
-}
-
-.left {
+.h-left {
 	justify-content: flex-start;
 }
 
-.spaced {
-	padding-right: 0.25em;
-	padding-left: 0.25em;
+.h-right {
+	justify-content: flex-end;
+}
+ 
+.v-left {
+	align-items: start;
+}
+
+.v-right {
+	align-items: end;
+}
+
+.drop-shadow {
+	box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.25);
+	z-index: 1;
+}
+
+.orange-back {
+	background-color: #FF5540;
+}
+
+.purple-back {
+	background-color: #3D3161;
+}
+
+.white-text {
+	color: white;
+}
+
+.orange-text {
+	color: #FF5540;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.vollkorn-font {
+	font-family: 'Vollkorn', serif;
+	font-weight: bold;
+}
+
+.lato-font {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+    line-height: 1.45;
+}
+
+.lato-font {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+    line-height: 1.45;
+}
+
+.rounded {
+	border-radius: 20px;
+}
+
+.white-border {
+	border: 1.5px solid #FFFFFF;
+}
+
+.big-button {
+	height: 42px;
+	width: 126px;
+	font-size: 1em;
 }

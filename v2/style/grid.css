@@ -1,14 +1,24 @@
+html {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
 body {
 	display: grid;
-	grid-row-gap: 1em;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(6, 1fr);
-	grid-template-areas: "ni ni ni ni ni ni ni ni nl nl nl nl"
+	grid-template-rows: repeat(6, auto);
+	grid-template-areas: "nn nn nn nn nn nn nn nn nn nn nn nn"
 						 "hc hc hc hc hc hc hc hc hc hc hc hc"
 						 "hc hc hc hc hc hc hc hc hc hc hc hc"
 						 "cx cx cx cx cy cy cy cy cz cz cz cz"
 						 "cx cx cx cx cy cy cy cy cz cz cz cz"
-						 "cu cu cu cu cu cu cr cr cr cr cr cr";		 
+						 "ss ss ss ss ss ss ss ss ss ss ss ss";	
+}
+
+/* Nav */
+
+#nn {
+	grid-area: nn;
 }
 
 #ni {
@@ -19,9 +29,13 @@ body {
 	grid-area: nl;
 }
 
+/* Hero */
+
 #hc {
 	grid-area: hc;
 }
+
+/* Section */
 
 #cx {
 	grid-area: cx;
@@ -35,10 +49,8 @@ body {
 	grid-area: cz;
 }
 
-#cu {
-	grid-area: cu;
-}
+/* Footer */
 
-#cr {
-	grid-area: cr;
+#ss {
+	grid-area: ss;
 }
